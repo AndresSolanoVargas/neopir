@@ -169,7 +169,7 @@
     }      
     $i++;
     if($fecha_actual>$fechaf or $cupos>=$pruebasXmes){
-      $_SESSION['mensaje'] = "La fecha que se ingreso no es correcta";
+      $_SESSION['mensaje'] = "La fecha que se ingreso no es correctass";
       $_SESSION['tipoerror'] = 1;
     }
     else{
